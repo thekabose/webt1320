@@ -1,0 +1,107 @@
+/* Global Styles */
+
+body {
+    background-color: black;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+a {
+    color: purple;
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+#container {
+    background-color: white;
+    width: 75%;
+    margin: 20px auto;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+nav {
+    background-color: blue;
+    padding: 5px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+header h1 {
+    font-size: 60px;
+    text-shadow: 2px;
+}
+
+main {
+    padding: 20px;
+}
+
+main img {
+    width: 50%;
+}
+
+#lower {
+    display: flex;
+}
+
+.col {
+    padding: 10px;
+    border: 2px solid black;
+    margin: 10px;
+    width: 33.33%;
+    border-radius: 10px;
+}
+
+.col img {
+    border: 1px solid black;
+}
+
+footer {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.button {
+    display: block;
+    background-color: purple;
+    width: 100px;
+    height: 20px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+p {
+    text-align: center;
+}
+
