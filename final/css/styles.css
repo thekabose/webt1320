@@ -1,0 +1,148 @@
+/* Global Styles*/
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    border: 2px solid black;
+}
+
+body {
+    background-color: black;
+}
+
+#container {
+    background-color: tan;
+    padding: 10px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+/* Mobile Styles */
+
+nav {
+    background-color: black;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color: black;
+    background-color: tan;
+    text-align: center;
+    margin: 5px 0;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: white;
+}
+
+header h1 {
+    font-size: 35px;
+}
+
+#lower {
+    
+    padding: 10px;
+}
+
+.col {
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+footer {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.button {
+    margin: 10px auto;
+    display: block;
+    text-align: center;
+    background-color: tan;
+    width: 125px;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    border: 2px solid black;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: white;
+}
+
+/*tablet*/
+
+@media (min-width: 786px) {
+nav {
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    width: 200px;
+}
+
+main img {
+    width: 75%;
+}
+
+.col img {
+   width: 75%; 
+}
+
+}
+
+/*desktop*/
+
+@media (min-width: 1024px) {
+
+#container {
+    width: 65%;
+    margin:  20px auto;
+}
+
+#lower {
+    width: 100%;
+    display: flex;
+}
+
+.col {
+    width: 33.33%;
+}
+}

@@ -5,4 +5,5 @@
 <li><a href="html5_intro_css/index.html" target="_blank">Gojo Satoru 2 Pages</a></li>
 <li><a href="advanced_css/index.html" target="_blank">Gojo Satoru 3 Pages</a></li>
 <li><a href="responsive/index.html" target="_blank">Responsive Design</a></li>
+<li><a href="final/index.html" target="_blank">Final Project</a></li>
 </ul>
